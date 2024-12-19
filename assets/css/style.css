@@ -1,0 +1,43 @@
+body {
+    font-family: "Inter", serif;
+    font-size: 1em;
+    background: rgb(4,65,127);
+    background: linear-gradient(85deg, rgba(4,65,127,1) 24%, rgba(0,0,0,1) 100%);
+    color: #fff;
+}
+
+h1 {font-size: 1.5em;}
+h2 {font-size: 1.3em;}
+a {color: inherit; text-decoration: inherit;} 
+
+
+.header-Verse {
+    font-family: "VT323", serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(121, 85, 85, 0.5)), 
+    url(../img/Nintendos.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    font-weight: bolder;
+    text-shadow: 3px -1px 5px #000;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.title-verse{padding: 20px 0 12px 30px; }
+
+.nav-list {
+    display: flex;
+    margin-top: 25px;
+    gap: 44px;
+}
+
+.welcome-user {
+    position: absolute;
+    top: 219px;
+    font-size: 2.5em;
+
+}
+
+.Games-Awards {
+    text-align: center;
+}
