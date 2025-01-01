@@ -87,8 +87,13 @@ h3 {
 
 .contact-column {
   display: inline-block;
-  height: 100%;
-  margin: 3em; }
+  width: 20%;
+  margin: 3em;
+  font-family: sans; }
+
+.minititle {
+  font-size: 0.8em;
+  color: grey; }
 
 .game-awards {
   text-align: center; }
