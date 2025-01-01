@@ -1,14 +1,27 @@
-$background-blue: #048;
+@import "font.scss";
+@import "header-main.scss";
+@import "style.scss";
+@import "footer.scss";
 
-html, body { height: 100% }
-body {
-    font-family: 'VT323', 'Inter', serif;
-    background: $background-blue;
-    background: linear-gradient(85deg, $background-blue 24%, black 100%);
-    color: white;
-    margin: 0;
+.game-awards {
+    text-align: center;
 }
 
-h1 {font-size: 2.8em;}
-h2 {font-size: 2em;}
-h3 {font-size: 1.6em;}
+.carrousel-game {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 3vw;
+}
+
+.game {
+    width: 16em;
+    aspect-ratio: 1;
+    margin-bottom: 2em;
+}
+
+.game img {
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1;
+}

@@ -1,0 +1,14 @@
+.contact-grid {
+    display: grid;
+    grid-template: auto / 50% 50%;
+}
+
+.contact-title-section {
+    margin: 3em;
+}
+
+.contact-column {
+    display: inline-block;
+    height: 100%;
+    margin: 3em;
+}

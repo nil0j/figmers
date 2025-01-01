@@ -1,2 +1,2 @@
 #!/bin/bash
-sassc assets/scss/style.scss > assets/css/style.css
+sassc assets/scss/main.scss > assets/css/style.css
