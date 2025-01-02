@@ -1,7 +1,14 @@
 nav {
   display: flex;
   justify-content: space-evenly;
-  height: 4em; }
+  height: 4em;
+  font-weight: bolder;
+  text-shadow: 3px -1px 5px #000; }
+
+.title-verse {
+  padding: 20px 0 12px 30px;
+  width: 50%;
+  margin: 0; }
 
 .nav-list {
   display: flex;
