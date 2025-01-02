@@ -1,3 +1,26 @@
+header {
+  font-family: "VT323", serif;
+  background: linear-gradient(to bottom, #0007, #79555577), url(../img/Nintendos.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  font-weight: bolder;
+  text-shadow: 3px -1px 5px #000; }
+  header h2 {
+    margin: 0;
+    padding: 0; }
+  header nav {
+    background-color: #0009; }
+
+.title-verse {
+  padding: 20px 0 12px 30px;
+  width: 50%;
+  margin: 0; }
+
+.welcome-user {
+  position: absolute;
+  top: 219px;
+  width: 100%; }
+
 .game-container {
   display: flex;
   justify-content: center;
