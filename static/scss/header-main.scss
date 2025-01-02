@@ -9,7 +9,7 @@ header.header-verse {
     text-shadow: 3px -1px 5px #000;
 }
 
-header h1, header h2, header h3 {
+header h2 {
 	margin: 0;
 	padding: 0;
 }
@@ -17,6 +17,7 @@ header h1, header h2, header h3 {
 .title-verse{
     padding: 20px 0 12px 30px;
     width: 50%;
+    margin: 0;
 }
 
 nav {
