@@ -22,6 +22,24 @@ nav {
 
     height: 4em;
     margin: 0;
+
+    .buttons-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: var(--text-color);
+            font-size: 1.7em;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
 
 .nav-list li {
@@ -45,3 +63,4 @@ nav {
 .nav-list a:hover {
     background-color: #fff4;
 }
+
