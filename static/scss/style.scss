@@ -1,8 +1,29 @@
-@import "base.scss";
-@import "index.scss";
-@import "about.scss";
-@import "games.scss";
-@import "game-page.scss";
+@use 'dark-mode';
+@use 'light-mode';
+@use 'font';
+@use 'base';
+@use 'index';
+@use 'about';
+@use 'nav';
+@use 'footer';
 
-@import "nav.scss";
-@import "footer.scss";
+.nav-list {
+  .buttons-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: var(--text-color);
+      font-size: 1.7em;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+

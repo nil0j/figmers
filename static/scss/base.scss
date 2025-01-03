@@ -1,11 +1,11 @@
-@import "font.scss";
-$background-blue: #048;
+
+@use "font.scss";
 
 body {
     font-family: 'VT323', 'Inter', serif;
-    background: $background-blue;
-    background: linear-gradient(85deg, $background-blue 24%, black 100%);
-    color: white;
+    background: var(--bg-color);
+    background: var(--bg-gradient);
+    color: var(--text-color);
     margin: 0;
 }
 

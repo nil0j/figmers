@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #048;
+  --bg-gradient: linear-gradient(85deg, #048 24%, black 100%);
+  --text-color: white;
+  --nav-bg: #0009;
+  --header-bg: linear-gradient(to bottom, #0007, #79555577), url(../img/Nintendos.jpg) no-repeat center center;
+}
+
+#icon-moon {
+  display: none !important;
+}
+
+#icon-sun {
+  display: inline !important;
+} 

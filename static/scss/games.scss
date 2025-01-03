@@ -1,6 +1,7 @@
-$game-row-fade: 0.1s ease all;
+@use 'mixins';
 
 .game-row {
+    $game-row-fade: 0.1s ease all;
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -21,7 +22,7 @@ $game-row-fade: 0.1s ease all;
         text-align: center;
 
         img {
-            @include centered-image;
+            @include mixins.centered-image;
         }
 
         span {

@@ -1,7 +1,9 @@
 header.header-verse {
     font-family: "VT323", serif;
+    background: var(--header-bg);
     background: linear-gradient(to bottom, #0007, #79555577), 
     url(../img/Nintendos.jpg) no-repeat center center;
+
     background-size: cover;
     height: 500px;
 
@@ -14,7 +16,7 @@ header.header-verse {
     }
 
     nav {
-        background-color: #0009;
+        background-color: var(--nav-bg);
     }
 }
 
