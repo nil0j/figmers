@@ -1,0 +1,23 @@
+@import "font.scss";
+$background-blue: #048;
+
+body {
+    font-family: 'VT323', 'Inter', serif;
+    background: $background-blue;
+    background: linear-gradient(85deg, $background-blue 24%, black 100%);
+    color: white;
+    margin: 0;
+}
+
+footer {
+    margin:0;
+    height: 5em;
+}
+
+h1 {font-size: 2.8em; text-align: center;}
+h2 {font-size: 2em; text-align: center;}
+h3 {font-size: 1.6em;}
+
+.center-text {
+    text-align: center;
+}

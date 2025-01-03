@@ -1,24 +1,39 @@
-.contact-us {
-    margin-bottom: 0;
-}
-
 .contact-grid {
     display: grid;
     grid-template: auto / 50% 50%;
-}
 
-.contact-title-section {
-    margin: 3em;
-}
+    .contact-title-section {
+        margin-top: 3em;
+    }
+    
+    .column {
+        display: inline-block;
+        width: 20%;
+        margin: 3em;
+        font-family: sans;
+    }
 
-.contact-column {
-    display: inline-block;
-    width: 20%;
-    margin: 3em;
-    font-family: sans;
-}
+    .contact-information-section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3em;
+    }
+    
+    p {
+        margin-left: 0.2em;
+        font-size: 0.8em;
+        color: grey;
+    }
 
-.minititle {
-    font-size: 0.8em;
-    color: grey;
+    a {
+        font-size: 1.2em;
+        padding: 0.2em;
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
