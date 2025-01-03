@@ -1,0 +1,26 @@
+#game-content {
+    margin: 0 auto;
+    padding: 2em;
+    display: grid;
+    grid-template: auto / 40% 60%;
+
+    #game-stats {
+        text-align: center;
+        margin: 0 2em;
+    }
+
+    #game-picture {
+        display: grid;
+        @include centered-image;
+    }
+
+    #game-description {
+        display: grid;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    p{
+        font-size: 1.4em;
+    }
+}
