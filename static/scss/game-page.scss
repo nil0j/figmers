@@ -5,6 +5,7 @@
     padding: 2em;
     display: grid;
     grid-template: auto / 40% 60%;
+    max-width: 60em;
 
     #game-stats {
         text-align: center;
@@ -17,6 +18,7 @@
         max-height: 100%;
         vertical-align: middle;
         transition: .5s ease all;
+        margin: 0 auto;
     }
 
     #game-description {

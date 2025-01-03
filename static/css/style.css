@@ -1,0 +1,331 @@
+:root {
+  --bg-color: #048;
+  --bg-gradient: linear-gradient(85deg, #048 24%, black 100%);
+  --text-color: white;
+  --nav-bg: #0009;
+  --header-bg: linear-gradient(to bottom, #0007, #79555577), url(../img/Nintendos.jpg) no-repeat center center;
+}
+
+#icon-moon {
+  display: none !important;
+}
+
+#icon-sun {
+  display: inline !important;
+}
+
+body.light-mode {
+  --bg-color: #DEDEDE;
+  --bg-gradient: #DEDEDE;
+  --text-color: #000;
+  --nav-bg: rgba(222, 222, 222, 0.9);
+  --header-bg: linear-gradient(to bottom, rgba(222, 222, 222, 0.7), rgba(121, 85, 85, 0.4)), url(../img/Nintendos.jpg) no-repeat center center;
+}
+body.light-mode #icon-sun {
+  display: none !important;
+}
+body.light-mode #icon-moon {
+  display: inline !important;
+}
+body.light-mode header.header-verse {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #000;
+}
+body.light-mode header.header-verse h1, body.light-mode header.header-verse h2, body.light-mode header.header-verse h3 {
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+body.light-mode .header-title,
+body.light-mode .section-title,
+body.light-mode .gallery-title {
+  color: #000 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode p {
+  color: #000;
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("../fonts/VT323-Regular.ttf");
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+body {
+  font-family: "VT323", "Inter", serif;
+  background: var(--bg-color);
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+  height: 5em;
+}
+
+h1 {
+  font-size: 2.8em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+header.header-verse {
+  font-family: "VT323", serif;
+  background: var(--header-bg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4666666667), rgba(121, 85, 85, 0.4666666667)), url(../img/Nintendos.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  font-weight: bolder;
+  text-shadow: 3px -1px 5px #000;
+}
+header.header-verse h2 {
+  margin: 0;
+  padding: 0;
+}
+header.header-verse nav {
+  background-color: var(--nav-bg);
+}
+
+.welcome-user {
+  position: absolute;
+  top: 219px;
+  width: 100%;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 3vw;
+}
+.game-container .game {
+  width: calc(10em + 14%);
+  aspect-ratio: 1;
+  margin-bottom: 2em;
+  display: block;
+}
+.game-container .game img {
+  max-width: 80%;
+  max-height: 80%;
+  vertical-align: middle;
+  transition: 0.5s ease all;
+}
+.game-container .game:hover img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.5s ease all;
+}
+
+.about .container {
+  display: flex;
+  justify-content: center;
+}
+.about .creator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 6%;
+}
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 4em;
+  font-weight: bolder;
+  text-shadow: 3px -1px 5px #000;
+  color: var(--text-color);
+}
+
+.title-verse {
+  padding: 20px 0 12px 30px;
+  width: 50%;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 4em;
+  margin: 0;
+}
+.nav-list .buttons-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list .buttons-toggle button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 1.7em;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-list li {
+  width: 10em;
+  height: 100%;
+}
+
+.nav-list a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 3em;
+  font-size: 1.3em;
+  text-align: center;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.nav-list a:hover {
+  background-color: rgba(255, 255, 255, 0.2666666667);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template: auto/50% 50%;
+}
+.contact-grid .contact-title-section {
+  margin-top: 3em;
+}
+.contact-grid .column {
+  display: inline-block;
+  width: 20%;
+  margin: 3em;
+  font-family: sans;
+}
+.contact-grid .contact-information-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3em;
+}
+.contact-grid p {
+  margin-left: 0.2em;
+  font-size: 0.8em;
+  color: grey;
+}
+.contact-grid a {
+  font-size: 1.2em;
+  padding: 0.2em;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.contact-grid a:hover {
+  text-decoration: underline;
+}
+
+.game-row {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 13% 30% 20% 20% 20%;
+  color: inherit;
+  text-decoration: none;
+  border-style: solid;
+  border-size: 2px;
+  border-color: rgba(119, 119, 119, 0);
+  transition: 0.1s ease all;
+  padding: 1em;
+}
+.game-row .game {
+  display: inline-grid;
+  text-align: center;
+}
+.game-row .game img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  transition: 0.5s ease all;
+}
+.game-row .game span {
+  display: block;
+}
+.game-row .game h2, .game-row .game h3, .game-row .game p, .game-row .game span {
+  margin: 0;
+}
+
+.game-row:hover {
+  border-color: rgba(119, 119, 119, 0.4666666667);
+  transition: 0.1s ease all;
+}
+
+#game-content {
+  margin: 0 auto;
+  padding: 2em;
+  display: grid;
+  grid-template: auto/40% 60%;
+  max-width: 60em;
+}
+#game-content #game-stats {
+  text-align: center;
+  margin: 0 2em;
+}
+#game-content #game-picture {
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  transition: 0.5s ease all;
+  margin: 0 auto;
+}
+#game-content #game-description {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#game-content p {
+  font-size: 1.4em;
+}
+
+.nav-list .buttons-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list .buttons-toggle button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 1.7em;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

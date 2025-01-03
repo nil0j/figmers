@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "VT323";
+  src: url("../fonts/VT323-Regular.ttf");
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+body {
+  font-family: "VT323", "Inter", serif;
+  background: var(--bg-color);
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+  height: 5em;
+}
+
+h1 {
+  font-size: 2.8em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/*# sourceMappingURL=base.css.map */
