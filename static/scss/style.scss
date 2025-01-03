@@ -8,24 +8,3 @@
 @use 'footer';
 @use 'games';
 @use 'game-page';
-
-.nav-list {
-  .buttons-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    button {
-      background: none;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      color: var(--text-color);
-      font-size: 1.7em;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-    }
-  }
-}
-
