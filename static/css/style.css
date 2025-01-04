@@ -285,6 +285,10 @@ nav {
   transition: 0.1s ease all;
 }
 
+#title-game > img {
+  width: 7em;
+}
+
 #game-content {
   margin: 0 auto;
   padding: 2em;
